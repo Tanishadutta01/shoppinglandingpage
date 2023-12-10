@@ -1,0 +1,66 @@
+body{
+    background-image: url("/images/developer-background.gif");;
+}
+.devBox{
+    margin: 50px 25%;
+    border:2px dotted white;
+    border-radius: 0px 25px 0px 25px;
+    padding:20px 50px;
+    color: aliceblue;
+    animation: Box-Animation infinite 1.2s;
+}
+.devBox h2{
+    text-align: center;
+    font-family: 'Rowdies', sans-serif;
+    text-shadow: 2px 2px 2px green;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height:150px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 5px whitesmoke;
+    border: 1px solid white;
+  }
+
+  .devBox .content p{
+    font-family: 'Acme', sans-serif;
+    line-height: 25px;
+    text-shadow: 1px 1px 2px green;
+    font-size: 20px;
+  }
+
+.socialmedia{
+    background-color: white;
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: 1px solid blue;
+}
+.socialmedia p {
+    color: black;
+    font-weight: 600;
+    
+}
+.socialmedia a{
+    margin-left: 8px;
+}
+
+  /* ------------------------------------------------------------Animation section------------------------------------------------------------- */
+
+  /* for box */
+
+  @keyframes Box-Animation {
+
+    0%{
+        border:2px solid white;
+        box-shadow: 1.5px 1.5px 7px yellow;
+    }
+    100%{
+        border: 2px solid yellow;
+        box-shadow: 1.5px 1.5px 7px white;
+    }
+    
+  }

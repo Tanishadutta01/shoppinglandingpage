@@ -1,0 +1,127 @@
+/* *{
+    margin: 0%;
+    padding:0%;
+
+} */
+
+#obody{
+ background-color:rgb(76, 27, 122);
+}
+
+.containerui{
+    padding:15px 25px;
+    margin: 35px 43px;
+    background-color: white;
+    height: 90%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 17px black;
+}
+.navbarui{
+    display: flex;
+    justify-content: space-between;
+}
+
+.containerui .navbarui ul li{
+    list-style: none;
+    float:left;
+
+}
+
+.containerui .navbarui ul li a{
+    padding:6px 30px;
+    text-decoration: none;
+    color: #1E1E6D;
+    font-size:18px;
+}
+
+main .contentui{
+    display: flex;
+    justify-content: space-between;
+    margin:20px;
+}
+.containerui main .box1,.box2{
+    display: inline-block;
+}
+
+.containerui main .box1{
+    line-height: 50px;
+    max-width: 50%;
+    padding-left: 15px;
+}
+
+.containerui .contentui .box1 .cstmBtn{
+    margin-top: 15px;
+}
+.cstmBtn{
+    border-radius: 21px 21px 0px 21px;
+}
+
+#l1{
+    font-family: 'Exo', sans-serif;
+    font-size:20px;
+}
+
+#l2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    color:blue;
+    font-weight: 500;
+}
+
+#l3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    color:black;
+    font-weight: 200;
+}
+#l4{
+    font-family: 'Amita', serif;
+}
+
+.containerui .navbarui #logo{
+    font-family: 'Marck Script', cursive;
+    font-size:38px;
+    padding:10px;
+}
+
+.containerui main .contentui .box2 .img{
+
+    height:16em;
+    /* width: 25em; */
+    margin-right: 10px;
+
+}
+
+.containerui main .contentui .box1 img{
+    height: 11.5em;
+    margin-top: 5em;
+}
+
+.containerui .navbarui ul a:hover{
+border-bottom :5px solid  #1E1E6D;
+font-size: 20px;
+}
+
+.containerui .contentui .box1 .cstmBtn:hover{
+    padding:6px 13px;
+}
+.itemImg{
+    /* padding: 15px 12px; */
+    margin-bottom: -17px;;
+}
+
+.containerui .box1 #dotImg{
+    height: 2em;
+    margin-top: 0%;
+}
+ 
+
+
+
+
+
+
+
+
+
+
